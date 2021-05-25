@@ -1,0 +1,25 @@
+.login-a-input {
+  font-size: $h3S;
+  padding: 10px 30px;
+  border: none;
+  border-bottom: solid 2px $cDark;
+  text-align: center;
+  transform: translateY(-10px);
+  &:focus {
+    outline: none;
+  }
+  &[type="text"] {
+    max-width: 180px;
+  }
+  &[type="email"] {
+    max-width: 214px;
+  }
+}
+.login-b-input {
+  max-width: 354px;
+  margin-bottom: 11px;
+  border: solid 1px $cDark;
+  padding: 13px;
+  font-size: $p1S;
+  border-radius: 5px;
+}

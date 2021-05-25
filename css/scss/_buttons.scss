@@ -1,0 +1,29 @@
+.wide-btn {
+  width: 100%;
+  background: $cDark;
+  color: $cLight;
+  font-size: $p1S;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 37px;
+  border: none;
+}
+.primary-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 17px 22px;
+  border-radius: 50px;
+  border: solid 1px $cDark;
+  text-decoration: none;
+  color: $cDark;
+  font-size: 11px;
+  img {
+    margin-right: 8px;
+  }
+  &:hover {
+    text-decoration: none;
+    opacity: 0.7;
+  }
+}

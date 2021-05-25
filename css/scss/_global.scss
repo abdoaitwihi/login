@@ -1,0 +1,36 @@
+/* ========global in all projects */
+* {
+  padding: 0;
+  margin: 0;
+}
+h1 {
+  font-size: $h1S;
+}
+h2 {
+  font-size: $h2S;
+}
+h3 {
+  font-size: $h3S;
+}
+h4 {
+  font-size: $h4S;
+}
+h5 {
+  font-size: $h5S;
+}
+h6 {
+  font-size: $h6S;
+}
+a:hover {
+  text-decoration: none;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.w-100 {
+  width: 100%;
+}
+.text-center {
+  text-align: center;
+}
+/* ========end of global in all projects */

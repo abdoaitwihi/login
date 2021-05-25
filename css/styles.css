@@ -1,0 +1,236 @@
+:root {
+  /* headings */
+  --h1-size: 35px;
+  --h2-size: 22px;
+  --h3-size: 21px;
+  --h4-size: 22px;
+  --h5-size: 18px;
+  --h6-size: 16px;
+  /* paragraphs */
+  --para1-size: 18px;
+  --para2-size: 15px;
+  --para3-size: 14px;
+  --para4-size: 10px;
+}
+
+@media only screen and (max-width: 992px) {
+  :root {
+    /* headings */
+    --h1-size: 30px;
+    --h2-size: 22px;
+    --h3-size: 21px;
+    --h4-size: 16px;
+    --h5-size: 16px;
+    --h6-size: 16px;
+    /* paragraphs */
+    --para1-size: 18px;
+    --para2-size: 15px;
+    --para3-size: 14px;
+    --para4-size: 18px;
+  }
+  .first {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .second {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+}
+
+/* headings */
+/* paragraphs */
+/* colors */
+/* buttons */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ========global in all projects */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-size: var(--h1-size);
+}
+
+h2 {
+  font-size: var(--h2-size);
+}
+
+h3 {
+  font-size: var(--h3-size);
+}
+
+h4 {
+  font-size: var(--h4-size);
+}
+
+h5 {
+  font-size: var(--h5-size);
+}
+
+h6 {
+  font-size: var(--h6-size);
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* ========end of global in all projects */
+.login-a-input {
+  font-size: var(--h3-size);
+  padding: 10px 30px;
+  border: none;
+  border-bottom: solid 2px #000000;
+  text-align: center;
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+}
+
+.login-a-input:focus {
+  outline: none;
+}
+
+.login-a-input[type="text"] {
+  max-width: 180px;
+}
+
+.login-a-input[type="email"] {
+  max-width: 214px;
+}
+
+.login-b-input {
+  max-width: 354px;
+  margin-bottom: 11px;
+  border: solid 1px #000000;
+  padding: 13px;
+  font-size: var(--para1-size);
+  border-radius: 5px;
+}
+
+.wide-btn {
+  width: 100%;
+  background: #000000;
+  color: #ffffff;
+  font-size: var(--para1-size);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 14px 37px;
+  border: none;
+}
+
+.primary-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 17px 22px;
+  border-radius: 50px;
+  border: solid 1px #000000;
+  text-decoration: none;
+  color: #000000;
+  font-size: 11px;
+}
+
+.primary-btn img {
+  margin-right: 8px;
+}
+
+.primary-btn:hover {
+  text-decoration: none;
+  opacity: 0.7;
+}
+
+.banner-image {
+  margin-bottom: 40px;
+  max-height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.form-container {
+  padding: 0 40px;
+  margin-bottom: 47px;
+}
+
+.form-container h2 {
+  font-size: var(--h2-size);
+  margin-bottom: 47px;
+}
+
+.form-container p {
+  font-size: var(--h3-size);
+  line-height: 45px;
+}
+
+.form-container.login-b {
+  margin-bottom: 30px;
+}
+
+.terms-checkbox-container {
+  padding: 14px 12px;
+  text-align: center;
+}
+
+.terms-checkbox-container label {
+  font-size: var(--para2-size);
+  margin-left: 7px;
+}
+
+.terms-checkbox-container.login-b {
+  margin-bottom: 60px;
+}
+
+.buttons-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 4px 22px 2px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.buttons-container a {
+  margin: 12px 4px;
+}
+
+.buttons-container.login-b {
+  margin-bottom: 60px;
+}
+/*# sourceMappingURL=styles.css.map */

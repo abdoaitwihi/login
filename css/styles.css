@@ -154,7 +154,7 @@ a:hover {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 17px 22px;
+  padding: 17px 17px;
   border-radius: 50px;
   border: solid 1px #000000;
   text-decoration: none;
